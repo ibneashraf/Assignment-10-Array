@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //--------------------------------------Task 1------------------------------------
+// Declare and initialize an empty 2D array (array of arrays)
+var emptyArray = [[]]
+//--------------------------------------Task 2------------------------------------
+
+// // Declare and initialize a 2D array representing a matrix
+var matrix = [
+    [0, 1, 2, 3],
+    [1, 0, 1, 2],
+    [2, 1, 0, 1]
+];
+
+// //--------------------------------------Task 3-------------------------------
+for(i=1; i<=10; i++){
+    console.log(i);
+}
+//--------------------------------------Task 4--------------------------------
+var p = prompt('Enter a number to show its multiplication table')
+
+document.write('Multiplication table of 2 lenght 15')
+
+for(i=1; i<=10; i++){
+    console.log(i);}
+
+var table= p+'='+i+'x'+ p*i
+document.write(table)
+  //--------------------------------------Task 5--------------------------------
+fruits = ["“apple”", "“banana”", "“mango”", "“orange”",
+"“strawberry”"]
+
+for(i=0; i<5; i++){
+    document.write(fruits[i]);
+  document.write("<br>");
+    //document.write("Element at index "+i+" is "+fruits[i]);
+}
+document.write("<br>");
+
+for(i=0; i<5; i++){
+   
+    document.write("Element at index "+i+" is "+fruits[i]);
+  document.write("<br>");
+
+}
+//--------------------------------------Task 6--------------------------------
+
+//    Odd: 
+    
+document.write("<br>");
+
+document.write("counting: "+"<br>"+"<br>");
+for (let i = 1; i <=15; i++) {
+    document.write(i)
+document.write("<br>");
+  
+}
+document.write("<br>");
+document.write( "Reverse counting:"+"<br>"+"<br>");
+
+for (let i = 10; i >= 1; i--) {
+    document.write(i);
+document.write("<br>");
+
+  }
+document.write("<br>");
+document.write("Even:"+"<br>"+"<br>");
+
+for (let i = 0; i <= 20; i+= 2) {
+    document.write(i)
+document.write("<br>");
+  }
+document.write("<br>");
+ 
+document.write("Odd: "+"<br>"+"<br>");
+
+ for (let i = 1; i <= 19; i += 2) {
+    document.write(i)
+document.write("<br>");
+   }
+document.write("<br>");
+
+document.write("Series: "+"<br>"+"<br>");
+ 
+  for (let i = 2; i <= 20; i += 2) {
+    document.write(i+"K");
+document.write("<br>");
+  }
+
+ document.write("<br>");
+ document.write("<br>");
+ document.write("<br>");
+
+//--------------------------------------Task 7--------------------------------
+
+const A = ['cake', 'apple pie', 'cookie', 'chips', 'patties'];
+var user = prompt("Enter food to buy: ");
+var found = false;
+
+for (var i = 0; i < A.length; i++) {
+  if (user === A[i]) {
+    document.write(`${user} is available at index of ${i} in our bakery.`);
+    found = true;
+    break;
+  }
+}
+
+if (!found) {
+  document.write(`We are sorry. ${user} is not available in our bakery.`);
+}
+
+//--------------------------------------Task 8--------------------------------
+
+var c = [24, 53, 78, 91, 12];
+
+let largest = c[0];
+
+for (let i = 1; i < c.length; i++) {
+  if (c[i] > largest) {
+    largest = c[i];
+  }
+}
+
+console.log(`The largest number in the list is: ${largest}`);
+
+//--------------------------------------Task 9--------------------------------
+var b = [24, 53, 78, 91, 12];
+Smallest = b[0]
+for (let i  = 0; i  < b.length; i ++) {
+   if ( b[i] < Smallest) {
+    Smallest = b[i]
+
+   }
+    
+}
+console.log(`The Smallest number in the list is: ${Smallest}`);
+ 
+//--------------------------------------Task 10--------------------------------
+
+for (let i = 5; i <= 100; i+=5) {
+   document.write(i , ',');
+    
+}
+    </script>
+</body>
+</html>
